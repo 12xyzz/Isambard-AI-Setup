@@ -72,6 +72,9 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 
 📌 More details in [user-documentation/applications/ML-packages](https://docs.isambard.ac.uk/user-documentation/applications/ML-packages/).
 
+Installation guides for commonly used packages:
+- [xFormers](conda/xformers.md)
+
 ## 4. Use Jupyter Notebook
 
 Register a kernel:
