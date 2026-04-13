@@ -16,10 +16,11 @@ Authentication expires every 12 hours.
 
 Recommended file storage layout:
 
-- Home directory (`$HOME`) → for code repositories and conda environments
-- Scratch directory (`$SCRATCH`) → for datasets, checkpoints, and large files
+- Home directory (`$HOME`) → for personal code repositories and conda environments
+- Scratch directory (`$SCRATCHDIR` `5TB`) → for short-lived working data (deleted after 60 days if not accessed)
+- Project directory (`$PROJECTDIR`, `20TB`) → for shared project datasets and environments
 
-The home directory is used for small, persistent files, while scratch is used for datasets and large files.
+If `$HOME` is full or exceeds its quota, SSH login may fail, so store large files in `$SCRATCHDIR` or `$PROJECTDIR` instead.
 
 📌 More details in [user-documentation/information/system-storage](https://docs.isambard.ac.uk/user-documentation/information/system-storage/).
 
